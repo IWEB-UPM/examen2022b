@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style: none; /* Remove list bullets */
+  padding-bottom: 20px;
+  padding-left: 0;
+  margin: auto;
+  border: solid;
+  width: 290px;
+
+}
+
+button {
+  margin-left: 10px;
+}
+
+input {
+  margin: 20px;
+}
