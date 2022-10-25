@@ -4,7 +4,7 @@ export default function Todo(props) {
     <p>Titulo: {props.item.todo}<br/>
     Completado: {'' + props.item.completed}
     </p>
-    {props.item.completed? null:<button onClick={()=>props.toggle(props.index)}>HECHO</button>}
+    {props.item.completed? null:<button onClick={()=>props.toggle(props.item)}>HECHO</button>}
     <button onClick={()=>props.borrar(props.item)}>BORRAR</button>    
   </li>)
 }
